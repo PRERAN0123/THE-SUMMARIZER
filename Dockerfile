@@ -25,8 +25,6 @@ RUN apt-get update && apt-get install -y \
 
 # Copy requirements file (create this separately)
 COPY requirements.txt .
-
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
@@ -41,8 +39,8 @@ ENV PORT=7000
 
 RUN tesseract --version && ffmpeg -version
 # Create temp directory
-RUN mkdir -p /app/temp
-
+RUN mkdir -p /app/temp && chmod 777 /app/temp
+RUN mkdir -p templates static
 # Expose the port Render expects (Render uses 10000 by default, but we'll use 7000 as per your app)
 EXPOSE 7000
 
