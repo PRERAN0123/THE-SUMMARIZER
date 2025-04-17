@@ -1,26 +1,33 @@
-# Welcome to Summarizer+
-Summarizer+ is a website to save your time by summarizing texts,audio,video,pdfs,youtube links and can also capture your devices screen to extract text and summarize contents on the screen,the website also includes a quick chatbot for instant AI assistance, our algorithm uses advanced python libraries like groq and deepseek APIs.
-to access our website, simply make an account by signing in with your email and creating a username and password
-# Guide
-![summ](https://github.com/user-attachments/assets/da4076f1-1e8b-4b6e-844d-0621b9ab7f71)
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-after clicking on get started you will be asked to make an account
+# 🚀Welcome to Summarizer+
+Summarizer+ is a website to save your time by summarizing texts,audio,video,pdfs,youtube links and can also capture your devices screen to extract text and summarize contents on the screen
 
-![8aa4eb6a-0e2a-4037-8a72-bf9410666b21](https://github.com/user-attachments/assets/463d7a7c-bb39-4e3e-8b67-5d459f745626)
+## 📌 Problem Statement
+- Weave AI magic with groq
+- Build the future of AI computer control with screenpipe's terminator
 
-once you are done with making an account/logging in, you will be shown the main webpage
+## 🎯 Objective
+our objective in this hackathon is to build a reliable AI powered Summarizer which can extract text from media sources like audio,video,images,pdfs and even youtube videos!
+our goal is to save time of users by summarizing any content for quick understanding to save the users time in this busy world
 
-![image](https://github.com/user-attachments/assets/be04b36c-545c-40e3-8c84-5b205d144e30)
+## 🧠 Team & Approach
+### Team Name:
+`Team Ampersand &&`
 
-- Image to text: use this feature to extract text from images, the AI model can detect various other languages like hindi, kannada, tamil and telegu
+### Team Members:  
+- S Rohan Kumar (GitHub: https://github.com/S-Rohan-Kumar / linkedin: https://www.linkedin.com/in/s-rohan-kumar-a1b59132b/ / Team Leader and Main developer)
   
-- Audio to text: use this feature to extract text from audio, the model currently accepts only mp3 formats, please wait for a while for the text to display as the AI takes time to listen to the audio and extract text
+- Srujan N (GitHub: https://github.com/planeloverpilot / linkedin: https://www.linkedin.com/in/srujan-n-95603332a/ / Webpage Designing and feature handling)
   
-- Video to text: use this to extract text from video sources, the AI can detect the text written in a video and display the output as text
+- Sudhir A (GitHub:  / linkedin: / Screenpipe integration developer)
+  
+- Preran S (GitHub: https://github.com/PRERAN01 / linkedin: https://www.linkedin.com/in/preran-s-131077345/ / Database and Website Connection Manager )
 
-- YouTube to text: this feature takes the audio from Youtube videos and extract text, as of now, the AI can handle short length videos, this is similar to audio to text but you do not need a mp3 file downloaded
-
-- PDF to text: this feature extracts text from PDF (does not include texts from images/tables in PDFs as of now), the text is given in chunks to break down the long texts into shorter bits for faster performance, it is reccomended to give short PDFs as of now as larger PDFs crash the feature
-
-- Summarize Text: this is the main feature of this website, to summarize text, just copy the text extracted from any one of the methods above to the summarize text box, wait for a few seconds to view the AI summary of the text
+### Your Approach:  
+- Why you chose this problem: we chose this problem as it would help us understand the need of AI in the modern day and its potential as a time saver and to provide more information in less content
+  
+- Key challenges you addressed: integrating screenpipe
+  
+- Any pivots, brainstorms, or breakthroughs during hacking: made an extra chatbot feature for any immediate requests from AI
 
